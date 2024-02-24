@@ -1,0 +1,147 @@
+body {
+    background-image: url('Purple Gradient Metaverse Desktop Prototype (2).png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: 50% 40%;
+}
+    
+div {
+    margin-top: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+    
+h1, p, a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+hr {
+    margin-top: -5em;
+    margin-bottom: -5em;
+    background-color: #FFFFFF;
+    margin-left:0
+}
+
+a, p { 
+    font-size: 1.2em;
+}
+
+#header {
+    display: flex;
+    margin-bottom: 3em;
+}
+
+#ye {
+    text-align: left
+}
+
+#login {
+    padding-top: 20px
+}
+
+.largeText {
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ex {
+    display: flex;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-top: 0em;
+}
+
+#mainInfo {
+    width: 40%;
+    margin-right: 100%
+}
+
+.rar {
+    width: 100%;    
+    font-size: 2em;
+    margin-right: 0.5em;
+    background: linear-gradient(270deg, #a2267d, #df145b, #ed9252);
+    background-size: 600% 600%;
+
+    animation: AnimationName 7s ease infinite;
+}
+
+
+.rar:hover {
+    background: none;
+    outline: 5px solid #ff3787;
+    box-shadow: 1px 1px 40px 20px #ff3787;
+}
+
+#contactDetails {
+    position:absolute;
+    bottom:0;
+    margin-top: 1em;
+    right:0;
+}
+.purple {
+    background: linear-gradient(270deg, #a2267d, #df145b, #ed9252);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: AnimationName 7s ease infinite;
+    background-size: 600% 600%;
+}
+
+.purple:hover {
+    outline: 5px solid #ff3787;
+    box-shadow: 1px 1px 40px 20px #ff3787;
+}
+
+#wow {
+    margin-bottom: 0.5em;
+}
+
+.headerText {
+width: 100%; height:100%;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+vertical-align: middle;
+font-size: 2em;
+}
+
+#description {
+    font-size: xx-large;
+    margin-top: -1.1em;
+}
+
+.btnText {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+#buttonList {
+    margin-top: 5em;
+    height: 5em;
+}
+
+#loginButton {
+    text-align: right;
+    padding: 10px;
+    padding-top: 0px
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
